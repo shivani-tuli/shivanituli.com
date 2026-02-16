@@ -1,0 +1,428 @@
+/* ============================================
+   Shivani Tuli — Simple, Clean Design
+   ============================================ */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    background: #ffffff;
+    color: #1a1a1a;
+    line-height: 1.7;
+    font-size: 16px;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+/* ============================================
+   HEADER
+   ============================================ */
+header {
+    padding: 2rem 0;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.header-left h1 {
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin-bottom: 0.25rem;
+}
+
+.header-left p {
+    font-size: 1rem;
+    color: #666;
+    font-weight: 400;
+}
+
+nav ul {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: #1a1a1a;
+    font-size: 1rem;
+    font-weight: 500;
+    transition: color 0.2s;
+}
+
+nav a:hover {
+    color: #666;
+}
+
+nav a.active {
+    color: #2563eb;
+    font-weight: 600;
+}
+
+/* ============================================
+   MAIN CONTENT
+   ============================================ */
+main {
+    padding: 3rem 0;
+}
+
+/* ============================================
+   HOME — INTRO SECTION
+   ============================================ */
+.intro-section {
+    display: grid;
+    grid-template-columns: 1fr 320px;
+    gap: 4rem;
+    align-items: start;
+}
+
+.intro-text p {
+    margin-bottom: 1.5rem;
+    color: #333;
+    font-size: 1rem;
+    line-height: 1.8;
+}
+
+.profile-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-image img {
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center top;
+}
+
+/* ============================================
+   SECTION TITLES
+   ============================================ */
+.section-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+/* ============================================
+   RESEARCH INTERESTS GRID
+   ============================================ */
+.interests-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.75rem 2rem;
+}
+
+.interest-item {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 1rem;
+    color: #333;
+}
+
+.interest-item .icon {
+    font-size: 1rem;
+}
+
+/* ============================================
+   EDUCATION
+   ============================================ */
+.education-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.edu-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.5rem;
+}
+
+.edu-item .icon {
+    font-size: 1rem;
+    margin-top: 0.15rem;
+}
+
+.edu-item p {
+    color: #333;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+/* ============================================
+   SKILLS
+   ============================================ */
+.skills-section {
+    margin-top: 2rem;
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.75rem 2rem;
+}
+
+.skill-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.5rem;
+    font-size: 0.95rem;
+    color: #333;
+}
+
+.skill-item .icon {
+    margin-top: 0.15rem;
+}
+
+/* ============================================
+   NEWS SECTION
+   ============================================ */
+.news-section {
+    margin-top: 3rem;
+    padding: 2rem 0;
+    border-top: 1px solid #f0f0f0;
+}
+
+.news-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+}
+
+.news-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    padding: 0.5rem 0;
+}
+
+.news-date {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: #b45309;
+    min-width: 85px;
+    flex-shrink: 0;
+}
+
+.news-content {
+    color: #333;
+    font-size: 0.95rem;
+    line-height: 1.6;
+}
+
+.news-content a {
+    color: #2563eb;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.news-content a:hover {
+    text-decoration: underline;
+}
+
+/* ============================================
+   PUBLICATIONS
+   ============================================ */
+.publications-section {
+    margin-top: 1rem;
+}
+
+.pub-subtitle {
+    color: #666;
+    font-size: 0.95rem;
+    margin-bottom: 1.5rem;
+    font-style: italic;
+}
+
+.pub-item {
+    margin-bottom: 1rem;
+    padding: 0.75rem 0;
+    border-bottom: 1px solid #f5f5f5;
+}
+
+.pub-item:last-child {
+    border-bottom: none;
+}
+
+.pub-title {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #2563eb;
+    margin-bottom: 0.3rem;
+    line-height: 1.4;
+}
+
+.pub-title a {
+    color: #2563eb;
+    text-decoration: none;
+}
+
+.pub-title a:hover {
+    text-decoration: underline;
+}
+
+.pub-authors {
+    font-size: 0.9rem;
+    color: #444;
+    margin-bottom: 0.2rem;
+    line-height: 1.5;
+}
+
+.pub-authors strong {
+    font-weight: 600;
+    color: #1a1a1a;
+}
+
+.pub-venue {
+    font-size: 0.85rem;
+    color: #666;
+    font-style: italic;
+}
+
+/* ============================================
+   RESEARCH / PROJECTS SECTIONS
+   ============================================ */
+.research-section {
+    margin-bottom: 2.5rem;
+}
+
+.research-section h3 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #1a1a1a;
+    margin-bottom: 0.5rem;
+}
+
+.research-meta {
+    font-size: 0.9rem;
+    color: #b45309;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+}
+
+.research-section p {
+    color: #333;
+    line-height: 1.8;
+    margin-bottom: 1rem;
+    font-size: 0.95rem;
+}
+
+.research-images {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+    flex-wrap: wrap;
+}
+
+.research-images img {
+    max-width: 280px;
+    height: auto;
+    border-radius: 6px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* ============================================
+   CONTACT
+   ============================================ */
+.contact-info p {
+    margin-bottom: 0.5rem;
+    color: #333;
+}
+
+.contact-info a {
+    color: #2563eb;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+/* ============================================
+   FOOTER
+   ============================================ */
+footer {
+    border-top: 1px solid #e5e5e5;
+    padding: 1.5rem 0;
+    text-align: center;
+    color: #999;
+    font-size: 0.85rem;
+}
+
+/* ============================================
+   PAGE TITLE (for inner pages)
+   ============================================ */
+.page-title {
+    margin-bottom: 0.5rem;
+}
+
+/* ============================================
+   RESPONSIVE
+   ============================================ */
+@media (max-width: 900px) {
+    .intro-section {
+        grid-template-columns: 1fr;
+    }
+
+    .profile-image {
+        order: -1;
+        margin-bottom: 2rem;
+    }
+
+    .header-content {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    nav ul {
+        gap: 1.5rem;
+    }
+
+    .interests-grid,
+    .skills-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .news-item {
+        flex-direction: column;
+        gap: 0.25rem;
+    }
+
+    .news-date {
+        min-width: auto;
+    }
+
+    .research-images img {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 600px) {
+    .container {
+        padding: 0 1.5rem;
+    }
+
+    nav ul {
+        gap: 1rem;
+        flex-wrap: wrap;
+    }
+}
