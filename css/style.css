@@ -266,6 +266,20 @@ main {
     text-decoration: underline;
 }
 
+.news-tag {
+    display: inline-block;
+    background: #fef3c7;
+    color: #92400e;
+    font-size: 0.75rem;
+    font-weight: 600;
+    padding: 0.15rem 0.5rem;
+    border-radius: 3px;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    vertical-align: middle;
+    margin-right: 0.25rem;
+}
+
 /* ============================================
    PUBLICATIONS
    ============================================ */
