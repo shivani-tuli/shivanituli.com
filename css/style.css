@@ -336,6 +336,60 @@ main {
 }
 
 /* ============================================
+   PRESS / FEATURED IN
+   ============================================ */
+.press-section {
+    margin-top: 3rem;
+    padding-top: 2rem;
+    border-top: 1px solid #e5e7eb;
+}
+
+.press-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.press-link {
+    display: block;
+    padding: 1rem 1.25rem;
+    border: 1px solid #e5e7eb;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: all 0.2s;
+}
+
+.press-link:hover {
+    border-color: #2563eb;
+    background: #f8fafc;
+}
+
+.press-source {
+    display: block;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: #6b7280;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    margin-bottom: 0.25rem;
+}
+
+.press-title {
+    display: block;
+    font-size: 0.95rem;
+    font-weight: 500;
+    color: #2563eb;
+    line-height: 1.4;
+}
+
+.press-date {
+    display: block;
+    font-size: 0.8rem;
+    color: #9ca3af;
+    margin-top: 0.25rem;
+}
+
+/* ============================================
    PUBLICATIONS
    ============================================ */
 .publications-section {
