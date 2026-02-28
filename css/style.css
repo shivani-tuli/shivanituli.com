@@ -122,19 +122,77 @@ main {
 .social-link {
     color: #2563eb;
     text-decoration: none;
-    font-size: 0.95rem;
+    font-size: 0.85rem;
     font-weight: 500;
-    transition: color 0.2s;
+    padding: 0.3rem 0.65rem;
+    border: 1px solid #dbeafe;
+    border-radius: 4px;
+    transition: all 0.2s;
+    background: #f8fafc;
 }
 
 .social-link:hover {
-    text-decoration: underline;
-    color: #1d4ed8;
+    background: #2563eb;
+    color: #fff;
+    border-color: #2563eb;
+    text-decoration: none;
 }
 
-.social-sep {
-    color: #ccc;
+/* Dot indicators for interests and skills */
+.interest-dot,
+.skill-dot {
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    background: #2563eb;
+    border-radius: 50%;
+    margin-right: 0.5rem;
+    flex-shrink: 0;
+}
+
+/* Experience Section */
+.experience-section {
+    margin-top: 3rem;
+    padding-top: 2rem;
+    border-top: 1px solid #e5e7eb;
+}
+
+.experience-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.exp-item {
+    display: flex;
+    gap: 1.5rem;
+    align-items: baseline;
+}
+
+.exp-date {
+    color: #6b7280;
     font-size: 0.9rem;
+    font-weight: 500;
+    min-width: 120px;
+    flex-shrink: 0;
+}
+
+.exp-details {
+    color: #333;
+    font-size: 0.95rem;
+    line-height: 1.5;
+}
+
+/* Research Category Headings */
+.research-category {
+    color: #2563eb;
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid #dbeafe;
+    letter-spacing: 0.02em;
 }
 
 /* ============================================
