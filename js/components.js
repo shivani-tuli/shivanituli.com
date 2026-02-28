@@ -28,7 +28,6 @@
             <div class="header-content">
                 <div class="header-left">
                     <h1>Shivani Tuli</h1>
-                    <p>Graduate Research Student at University of Pittsburgh</p>
                 </div>
                 <nav>
                     <ul>
