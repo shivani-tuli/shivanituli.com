@@ -6,6 +6,7 @@
         { name: 'Home', href: 'index.html' },
         { name: 'Research', href: 'research.html' },
         { name: 'Publications', href: 'publications.html' },
+        { name: 'Teaching', href: 'teaching.html' },
         { name: 'Projects', href: 'projects.html' },
         { name: 'Contact', href: 'contact.html' },
     ];

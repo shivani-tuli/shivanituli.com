@@ -9,7 +9,7 @@
 }
 
 body {
-    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    font-family: 'Poppins', -apple-system, BlinkMacSystemFont, sans-serif;
     background: #ffffff;
     color: #1a1a1a;
     line-height: 1.7;
@@ -453,6 +453,81 @@ main {
     font-size: 0.85rem;
     font-weight: 600;
     margin-top: 0.25rem;
+}
+
+/* ============================================
+   TEACHING
+   ============================================ */
+.teaching-section {
+    margin-top: 1rem;
+}
+
+.teaching-item {
+    margin-bottom: 2rem;
+    padding: 1.25rem 1.5rem;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    transition: border-color 0.2s;
+}
+
+.teaching-item:hover {
+    border-color: #2563eb;
+}
+
+.teaching-header {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin-bottom: 0.25rem;
+}
+
+.teaching-course {
+    font-size: 1.05rem;
+    font-weight: 600;
+    color: #1a1a1a;
+    margin: 0;
+}
+
+.teaching-course a {
+    color: #2563eb;
+    text-decoration: none;
+}
+
+.teaching-course a:hover {
+    text-decoration: underline;
+}
+
+.teaching-level {
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: #2563eb;
+    background: #dbeafe;
+    padding: 0.15rem 0.5rem;
+    border-radius: 3px;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    flex-shrink: 0;
+}
+
+.teaching-meta {
+    font-size: 0.9rem;
+    color: #6b7280;
+    font-weight: 500;
+    margin-bottom: 0.15rem;
+}
+
+.teaching-role {
+    font-size: 0.9rem;
+    color: #b45309;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.teaching-description {
+    color: #333;
+    font-size: 0.95rem;
+    line-height: 1.7;
+    margin: 0;
 }
 
 /* ============================================
