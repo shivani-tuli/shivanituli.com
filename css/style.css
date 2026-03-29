@@ -110,6 +110,30 @@ main {
     object-position: center top;
 }
 
+/* Image download protection */
+.img-protect {
+    position: relative;
+    display: inline-block;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+.img-protect::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+}
+
+.img-protect img {
+    -webkit-user-drag: none;
+    -webkit-touch-callout: none;
+    pointer-events: none;
+}
+
 .social-links {
     display: flex;
     align-items: center;
