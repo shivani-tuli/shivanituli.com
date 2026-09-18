@@ -1,0 +1,18 @@
+#!/bin/bash
+PAGE_URL="https://shivani-tuli.github.io/survivin-rcc-tumorigenesis/"
+SITEMAP_URL="https://shivani-tuli.github.io/survivin-rcc-tumorigenesis/sitemap.xml"
+
+echo "================================================"
+echo "  Submitting to Bing IndexNow"
+echo "================================================"
+echo ""
+echo "Submit your sitemap at:"
+echo "  https://www.bing.com/indexnow?url=${PAGE_URL}&key=YOUR_INDEXNOW_KEY"
+echo ""
+echo "Or submit via Google Search Console:"
+echo "  https://search.google.com/search-console"
+echo ""
+echo "Sitemap URL: ${SITEMAP_URL}"
+echo ""
+echo "Manual Bing submission:"
+echo "  https://www.bing.com/webmasters/sitemaps?siteUrl=https://shivani-tuli.github.io/survivin-rcc-tumorigenesis/"
